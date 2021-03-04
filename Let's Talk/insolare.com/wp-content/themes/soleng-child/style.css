@@ -1,0 +1,163 @@
+/*
+ Theme Name: 	Soleng Child Theme
+ Theme URI: 	http://soleng.axiomthemes.com/
+ Description: 	Soleng Child Theme
+ Author: 		Axiomthemes
+ Author URI: 	http://axiomthemes.com/
+ Template: 		soleng
+ Version: 		1.0
+ License:      	GNU General Public License v2 or later
+ License URI:  	http://www.gnu.org/licenses/gpl-2.0.html 
+ Tags: 			flexible-header, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, full-width-template, microformats, post-formats, theme-options, threaded-comments, translation-ready
+ Text Domain: 	soleng_child
+*/
+
+@media (max-width: 1279px) {
+    .client-section-home .trx_addons_columns_wrap {
+        margin: 0px;
+        padding: 0px 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .sc_icons.sc_icons_image .sc_icons_image img {
+        width: auto !important;
+    }
+}
+
+::-webkit-input-placeholder {
+    color: #353535;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color: #353535;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #353535;
+    opacity: 1;
+}
+
+:-moz-placeholder {
+    color: #353535;
+    opacity: 1;
+}
+
+/*input,select, textarea {
+	background-color: #F5F4EF !important;
+	color: #353535 !important;
+	border-color: transparent !important;
+}*/
+
+input:hover,
+textarea:hover {
+    background-color: transparent !important;
+    color: #353535 !important;
+    border-color: #353535 !important;
+}
+
+select:hover {
+    background-color: transparent !important;
+    color: #353535 !important;
+}
+
+.scheme_dark .wpcf7-form>p label {
+    color: #353535;
+}
+
+/*input[type="submit"] {
+	background-color: #858585 !important;
+	color: #F5F4EF !important; 
+}*/
+
+#sc_icons_359228142 .sc_icons_item {
+    font-size: 18px;
+}
+
+aside#search-2 input {
+    background: #fff !important;
+}
+
+.vc_column_container>.vc_column-inner {
+    padding-left: 0px !important;
+}
+
+#follow-footer_widget>div>div>span {
+    color: #312d2a !important;
+}
+
+/*#sc_title_975750085 > div, #sc_title_975750085 > h4 {
+    color: #FFF;
+}
+
+#sc_title_221553855 > div, #sc_title_221553855 > h4 {
+    color: #000;
+}
+
+#sc_title_1085028776 > div, #sc_title_1085028776 > h4 {
+    color: #FFF;
+}
+
+#sc_title_501828105 > div, #sc_title_501828105 > h4 {
+    color: #000;
+}*/
+
+/*a#sc_button_910653889 {
+    padding: 15px;
+}
+a#sc_button_1046368845 {
+    padding: 15px;
+}
+a#sc_button_1665601325 {
+    padding: 15px;
+}
+a#sc_button_1566420610 {
+    padding: 15px;
+}*/
+
+.eg-theme_skin_1-container {
+    background: #FFD84B !important;
+}
+
+.esg-bc.eec>div:hover {
+    opacity: 1 !important;
+    background: #f6d56100;
+    /* visibility: hidden !important; */
+}
+
+.esg-entry-cover .esg-overlay {
+    opacity: 0.8 !important;
+}
+
+.scheme_default .sc_title_title:after {
+    background-color: #312d2a00 !important;
+}
+
+.mc4wp-form .mcfwp-agree-input>span {
+    margin-top: 6px !important;
+}
+
+/*.scheme_default div.esg-filter-wrapper .esg-filterbutton>span:hover, .scheme_default .mptt-navigation-tabs li a:hover, .scheme_default .soleng_tabs .soleng_tabs_titles li a:hover{
+	color: #ffffff !important;
+    background-color: #13137E;
+}*/
+
+.page-id-1377 .footer_custom_footer-custome {
+    margin-top: 0 !important;
+}
+
+.scheme_dark .menu_mobile_inner a:hover,
+.scheme_dark .menu_mobile_inner .current-menu-ancestor>a,
+.scheme_dark .menu_mobile_inner .current-menu-item>a,
+.scheme_dark .menu_mobile_inner .menu_mobile_nav_area li:hover:before,
+.scheme_dark .menu_mobile_inner .menu_mobile_nav_area li.current-menu-ancestor:before,
+.scheme_dark .menu_mobile_inner .menu_mobile_nav_area li.current-menu-item:before,
+.scheme_dark .menu_mobile_inner .social_item .social_icon {
+    color: #f1cd3c !important;
+}
+
+.scheme_default .socials_wrap .social_item .social_icon {
+    background-color: #f1cd3c !important;
+}
